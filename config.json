@@ -1,0 +1,724 @@
+{
+    "project_types": {
+        "node": {
+            ".js": {
+                "comment_style": "//"
+            }
+        },
+        "react": {
+            ".jsx": {
+                "comment_style": "//"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".js": {
+                "comment_style": "//"
+            },
+            ".ts": {
+                "comment_style": "//"
+            },
+            ".html": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            }
+        },
+        "nuxt": {
+            ".vue": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            },
+            ".js": {
+                "comment_style": "//"
+            },
+            ".ts": {
+                "comment_style": "//"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".html": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            }
+        },
+        "vue": {
+            ".vue": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            },
+            ".js": {
+                "comment_style": "//"
+            },
+            ".ts": {
+                "comment_style": "//"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".html": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            }
+        },
+        "next": {
+            ".jsx": {
+                "comment_style": "//"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".js": {
+                "comment_style": "//"
+            },
+            ".ts": {
+                "comment_style": "//"
+            },
+            ".html": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            }
+        },
+        "php": {
+            ".php": {
+                "comment_style": "//",
+                "comment_after": "<?php"
+            }
+        },
+        "laravel": {
+            ".php": {
+                "comment_style": "//",
+                "comment_after": "<?php"
+            },
+            ".blade.php": {
+                "comment_style": "{{--",
+                "comment_end": "--}}"
+            },
+            ".js": {
+                "comment_style": "{{--",
+                "comment_end": "--}}"
+            },
+            ".vue": {
+                "comment_style": "{{--",
+                "comment_end": "--}}"
+            },
+            ".css": {
+                "comment_style": "{{--",
+                "comment_end": "--}}"
+            },
+            ".scss": {
+                "comment_style": "{{--",
+                "comment_end": "--}}"
+            }
+        },
+        "python": {
+            ".py": {
+                "comment_style": "#"
+            }
+        },
+        "flask": {
+            ".py": {
+                "comment_style": "#"
+            }
+        },
+        "web": {
+            ".html": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            },
+            ".js": {
+                "comment_style": "//"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            }
+        },
+        "angular": {
+            ".ts": {
+                "comment_style": "//"
+            },
+            ".html": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".scss": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".less": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            }
+        },
+        "vue-ts": {
+            ".vue": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            },
+            ".ts": {
+                "comment_style": "//"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".scss": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".less": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            }
+        },
+        "svelte": {
+            ".svelte": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            },
+            ".js": {
+                "comment_style": "//"
+            },
+            ".ts": {
+                "comment_style": "//"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".scss": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".less": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            }
+        },
+        "ember": {
+            ".js": {
+                "comment_style": "//"
+            },
+            ".hbs": {
+                "comment_style": "{{!--",
+                "comment_end": "--}}"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".scss": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".less": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            }
+        },
+        "ruby-on-rails": {
+            ".rb": {
+                "comment_style": "#"
+            },
+            ".erb": {
+                "comment_style": "<%#",
+                "comment_end": "%>"
+            },
+            ".haml": {
+                "comment_style": "-#"
+            },
+            ".slim": {
+                "comment_style": "/"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".scss": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".sass": {
+                "comment_style": "//"
+            }
+        },
+        "aspnet-razor": {
+            ".cshtml": {
+                "comment_style": "@*",
+                "comment_end": "*@"
+            },
+            ".cs": {
+                "comment_style": "//"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".scss": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".less": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            }
+        },
+        "java-jsp": {
+            ".jsp": {
+                "comment_style": "<%--",
+                "comment_end": "--%>"
+            },
+            ".java": {
+                "comment_style": "//"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".scss": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".less": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            }
+        },
+        "go": {
+            ".go": {
+                "comment_style": "//"
+            },
+            ".tmpl": {
+                "comment_style": "{{/*",
+                "comment_end": "*/}}"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".scss": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".less": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            }
+        },
+        "rust": {
+            ".rs": {
+                "comment_style": "//"
+            },
+            ".toml": {
+                "comment_style": "#"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".scss": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".less": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            }
+        },
+        "c++": {
+            ".cpp": {
+                "comment_style": "//"
+            },
+            ".hpp": {
+                "comment_style": "//"
+            },
+            ".h": {
+                "comment_style": "//"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".scss": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".less": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            }
+        },
+        "c#": {
+            ".cs": {
+                "comment_style": "//"
+            },
+            ".cshtml": {
+                "comment_style": "@*",
+                "comment_end": "*@"
+            },
+            ".aspx": {
+                "comment_style": "<%--",
+                "comment_end": "--%>"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".scss": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".less": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            }
+        },
+        "swift": {
+            ".swift": {
+                "comment_style": "//"
+            },
+            ".storyboard": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            },
+            ".xib": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".scss": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".less": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            }
+        },
+        "kotlin": {
+            ".kt": {
+                "comment_style": "//"
+            },
+            ".kts": {
+                "comment_style": "//"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".scss": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".less": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            }
+        },
+        "dart": {
+            ".dart": {
+                "comment_style": "//"
+            },
+            ".html": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".scss": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".less": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            }
+        },
+        "elixir": {
+            ".ex": {
+                "comment_style": "#"
+            },
+            ".exs": {
+                "comment_style": "#"
+            },
+            ".eex": {
+                "comment_style": "<%#",
+                "comment_end": "%>"
+            },
+            ".leex": {
+                "comment_style": "<%#",
+                "comment_end": "%>"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".scss": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".less": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            }
+        },
+        "scala": {
+            ".scala": {
+                "comment_style": "//"
+            },
+            ".html": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".scss": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".less": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            }
+        },
+        "clojure": {
+            ".clj": {
+                "comment_style": ";"
+            },
+            ".cljs": {
+                "comment_style": ";"
+            },
+            ".cljc": {
+                "comment_style": ";"
+            },
+            ".edn": {
+                "comment_style": ";"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".scss": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".less": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            }
+        },
+        "haskell": {
+            ".hs": {
+                "comment_style": "--"
+            },
+            ".lhs": {
+                "comment_style": "--"
+            },
+            ".html": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".scss": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".less": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            }
+        },
+        "elm": {
+            ".elm": {
+                "comment_style": "--"
+            },
+            ".html": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".scss": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".less": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            }
+        },
+        "julia": {
+            ".jl": {
+                "comment_style": "#"
+            },
+            ".html": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".scss": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".less": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            }
+        },
+        "lua": {
+            ".lua": {
+                "comment_style": "--"
+            },
+            ".html": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".scss": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".less": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            }
+        },
+        "perl": {
+            ".pl": {
+                "comment_style": "#"
+            },
+            ".pm": {
+                "comment_style": "#"
+            },
+            ".t": {
+                "comment_style": "#"
+            },
+            ".html": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
+            ".scss": {
+                "comment_style": "/",
+                "comment_end": "/"
+            },
+            ".less": {
+                "comment_style": "/",
+                "comment_end": "/"
+            }
+        },
+        "r": {
+            ".r": {
+                "comment_style": "#"
+            },
+            ".rmd": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            },
+            ".html": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            },
+            ".css": {
+                "comment_style": "/",
+                "comment_end": "/"
+            },
+            ".scss": {
+            "comment_style": "/",
+                "comment_end": "/"
+            },
+            ".less": {
+                "comment_style": "/",
+                "comment_end": "/"
+            }
+        },
+        "groovy": {
+            ".groovy": {
+                "comment_style": "//"
+            },
+            ".gsp": {
+                "comment_style": "<%--",
+                "comment_end": "--%>"
+            },
+            ".html": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            },
+            ".css": {
+                "comment_style": "/",
+                "comment_end": "/"
+            },
+            ".scss": {
+                "comment_style": "/",
+                "comment_end": "/"
+            },
+            ".less": {
+                "comment_style": "/",
+                "comment_end": "/"
+            }
+        },
+        "markdown": {
+            ".md": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            },
+            ".markdown": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
+            }
+        },
+        "restructuredtext": {
+            ".rst": {
+                "comment_style": ".."
+            }
+        },
+        "asciidoc": {
+            ".adoc": {
+                "comment_style": "////",
+                "comment_end": "////"
+            },
+            ".asciidoc": {
+                "comment_style": "////",
+                "comment_end": "////"
+            }
+        },
+        "latex": {
+            ".tex": {
+                "comment_style": "%"
+            },
+            ".sty": {
+                "comment_style": "%"
+            }
+        }
+    }
+}
