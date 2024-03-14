@@ -31,6 +31,47 @@ The script can process a wide variety of project types, each associated with spe
 - **Svelte**: `.svelte`, `.js`, `.ts`, `.css`, `.scss`, `.less`
 - **...and many more**: Including `ember`, `ruby-on-rails`, `aspnet-razor`, `java-jsp`, `go`, `rust`, `c++`, `c#`, `swift`, `kotlin`, `dart`, `elixir`, `scala`, `clojure`, `haskell`, `elm`, `julia`, `lua`, `perl`, `r`, `groovy`, `markdown`, `restructuredtext`, `asciidoc`, `latex`.
 
+## Table with types in config.json
+
+node | .js
+react | .jsx, .css, .js, .ts, .html
+nuxt | .vue, .js, .ts, .css, .html
+vue | .vue, .js, .ts, .css, .html
+next | .jsx, .css, .js, .ts, .html
+php | .php
+laravel | .php, .blade.php, .css, .js, .vue, .html
+python | .py
+flask | .py
+web | .html, .js, .css
+angular | .ts, .html, .css, .scss, .less
+vue-ts | .vue, .ts, .css, .scss, .less
+svelte | .svelte, .js, .ts, .css, .scss, .less
+ember | .js, .hbs, .css, .scss, .less
+ruby-on-rails | .rb, .erb, .haml, .slim, .css, .scss, .sass
+aspnet-razor | .cshtml, .cs, .css, .scss, .less
+java-jsp | .jsp, .java, .css, .scss, .less
+go | .go, .tmpl, .css, .scss, .less
+rust | .rs, .toml, .css, .scss, .less
+c++ | .cpp, .hpp, .h, .css, .scss, .less
+c# | .cs, .cshtml, .aspx, .css, .scss, .less
+swift | .swift, .storyboard, .xib, .css, .scss, .less
+kotlin | .kt, .kts, .css, .scss, .less
+dart | .dart, .html, .css, .scss, .less
+elixir | .ex, .exs, .eex, .leex, .css, .scss, .less
+scala | .scala, .html, .css, .scss, .less
+clojure | .clj, .cljs, .cljc, .edn, .css, .scss, .less
+haskell | .hs, .lhs, .html, .css, .scss, .less
+elm | .elm, .html, .css, .scss, .less
+julia | .jl, .html, .css, .scss, .less
+lua | .lua, .html, .css, .scss, .less
+perl | .pl, .pm, .t, .html, .css, .scss, .less
+r | .r, .rmd, .html, .css, .scss, .less
+groovy | .groovy, .gsp, .html, .css, .scss, .less
+markdown | .md, .markdown
+restructuredtext | .rst
+asciidoc | .adoc, .asciidoc
+latex | .tex, .sty
+
 ## Command-Line Arguments
 
 - `config_file`: Specifies the name of the project configuration file (without the `.json` extension) to use for processing files in a project.
@@ -145,8 +186,7 @@ cd Add-Relative-Path-to-Files
   
   ```sh
   python app.py --add {project_type} {project_name} {/path/to/project}
-
-  ```
+    ```
   Replace `{project_type}` with the desired project type (e.g., `react`), `{project_name}` with the name of your project, and `{/path/to/project}` with the path to your project directory.
 
 4. Run the script with the configuration file:
