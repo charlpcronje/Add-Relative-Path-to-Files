@@ -105,18 +105,6 @@ python app.py my_react_project --dryrun
 Check the generated log file in the `logs` directory to review the actions that would be taken.
 ```
 
-
-# Add Relative Path to Files
-
-This Python script scans through a project directory and adds comments with the relative file path to the first line of each file matching the specified file types in the configuration file.
-
-## Features
-
-
-
-
-## Usage
-
 1. Clone the repository:
 
 ```sh
@@ -135,6 +123,11 @@ cd Add-Relative-Path-to-Files
   ```json
   {
     "project_directory": "/path/to/your/project",
+    "exclude_folders": [
+      ".git",
+      "vendor",
+      "node_modules"
+    ],
     "file_types": {
       ".ext1": {
         "comment_style": "comment_style1"
