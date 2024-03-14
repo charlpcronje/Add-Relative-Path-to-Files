@@ -98,21 +98,20 @@
                 "comment_style": "{{--",
                 "comment_end": "--}}"
             },
+            ".css": {
+                "comment_style": "/*",
+                "comment_end": "*/"
+            },
             ".js": {
-                "comment_style": "{{--",
-                "comment_end": "--}}"
+                "comment_style": "//"
             },
             ".vue": {
-                "comment_style": "{{--",
-                "comment_end": "--}}"
+                "comment_style": "<!--",
+                "comment_end": "-->"
             },
-            ".css": {
-                "comment_style": "{{--",
-                "comment_end": "--}}"
-            },
-            ".scss": {
-                "comment_style": "{{--",
-                "comment_end": "--}}"
+            ".html": {
+                "comment_style": "<!--",
+                "comment_end": "-->"
             }
         },
         "python": {
